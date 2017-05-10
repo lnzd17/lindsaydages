@@ -1,4 +1,4 @@
-class Admin::SolutionsController < AdminController
+class Me::SolutionsController < MeController
   def create
     @solution = Solution.new
   end
