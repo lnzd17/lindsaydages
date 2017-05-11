@@ -1,4 +1,4 @@
-class Me::ProjectsController < MeController
+class Me::ProjectsController < ApplicationController
   def create
     @project = Project.new
   end
