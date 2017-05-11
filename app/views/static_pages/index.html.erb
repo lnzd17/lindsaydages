@@ -12,7 +12,9 @@
       <h1>Projects</h1>
     </div>
     <div class="content">
-      test
+      <% @projects.each do |project| %>
+        <%= project.name %>
+      <% end %>
     </div>
   </div>
   <div class="section">
@@ -20,7 +22,9 @@
       <h1>Tools</h1>
     </div>
     <div class="content">
-      test
+      <% @tools.each do |tool| %>
+        <%= tool.name %>
+      <% end %>
     </div>
   </div>
   <div class="section">
@@ -28,7 +32,9 @@
       <h1>Example Code</h1>
     </div>
     <div class="content">
-      test
+      <% @solutions.each do |solution| %>
+        <%= solution.name %>
+      <% end %>
     </div>
   </div>
   <div class="section">
@@ -36,7 +42,7 @@
       <h1>How Tos</h1>
     </div>
     <div class="content">
-
+      test
     </div>
   </div>
   <div class="section">
@@ -44,7 +50,7 @@
       <h1>Contact</h1>
     </div>
     <div class="content">
-
+      test
     </div>
   </div>
 
