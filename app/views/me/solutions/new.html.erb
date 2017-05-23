@@ -1,1 +1,8 @@
 <h2>New Solution</h2>
+
+<%= simple_form_for @solution, url: me_solutions_path do |f| %>
+  <%= f.input :name %>
+  <%= f.input :description %>
+  <%= f.input :snippet %>
+  <%= f.button :submit, 'Submit' %>
+<% end %>
