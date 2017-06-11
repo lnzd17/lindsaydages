@@ -2,16 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .border{
 }
 
 .content{
   grid-area: content;
+  font-family: 'Muli', sans-serif;
 }
 
 .title{
   text-align: center;
   grid-area: title;
+  font-family: 'Ovo', serif;
 }
 .section{
   display:grid;
