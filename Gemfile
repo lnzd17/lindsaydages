@@ -61,3 +61,5 @@ gem 'devise'
 gem 'simple_form'
 
 gem 'font-awesome-sass'
+
+gem 'font-mfizz-rails', '~> 1.1'
