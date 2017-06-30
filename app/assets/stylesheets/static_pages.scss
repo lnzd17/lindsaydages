@@ -38,6 +38,7 @@ a:hover{
 .content{
   grid-area: content;
   font-family: 'Muli', sans-serif;
+  padding: 10px;
 }
 
 .title{
@@ -87,4 +88,8 @@ a:hover{
   display: flex;
   justify-content: space-between;
   color: #007E9E;
+}
+
+.tools_spacing i {
+  margin: 10px;
 }
