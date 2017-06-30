@@ -4,6 +4,14 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 ul{
   list-style: none;
   display: flex;
@@ -33,6 +41,7 @@ a:hover{
 
 .border{
   padding: 15px 150px;
+  flex: 1 0 auto;
 }
 
 .content{
@@ -87,9 +96,16 @@ a:hover{
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
-  color: #007E9E;
 }
 
 .tools_spacing i {
   margin: 10px;
+}
+
+.contact{
+  padding: 15px 150px;
+}
+
+.head_line{
+  padding-bottom: 15px;
 }
