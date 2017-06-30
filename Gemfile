@@ -59,3 +59,5 @@ gem 'rubocop', require: false
 gem 'devise'
 
 gem 'simple_form'
+
+gem 'font-awesome-sass'

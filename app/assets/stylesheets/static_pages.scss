@@ -1,9 +1,11 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 .border{
+  padding: 15px 150px;
 }
 
 .content{
@@ -16,11 +18,49 @@
   grid-area: title;
   font-family: 'Ovo', serif;
 }
+
 .section{
+  margin-bottom: 50px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   display:grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto 400px;
   grid-template-areas:
     ". title ."
     ". content .";
+}
+
+
+
+
+.main{
+  font-size: 150px;
+  line-height: 50px;
+}
+
+.left_align{
+  text-align: left;
+}
+
+.right_align{
+  text-align: right;
+}
+
+.projects{
+  background: #007E9E;
+  color: #E4C220;
+}
+
+.tools{
+  background: #E4C220;
+  color:  #007E9E;
+}
+
+.flex_contact{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-between;
+  color: #007E9E;
 }
