@@ -5,7 +5,9 @@
 @import "font-awesome";
 
 .border{
-  padding: 15px 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
 }
 
 .content{
@@ -102,18 +104,20 @@ a:hover{
 
 // contact css
 .contact{
-  padding: 15px 150px;
+  width: 100%;
+
+
 }
 
 .flex_contact{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
 }
 
 .flex_contact a{
   color: rgba(0,0,0,0.5);
+  margin: 0px;
 }
 
 .flex_contact a:hover{
@@ -187,11 +191,10 @@ a:hover{
   }
 
   .border{
-    padding: 15px 80px;
-  }
-
-  .contact{
-    padding: 15px 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border: 1px solid black;
   }
 
   .content{
