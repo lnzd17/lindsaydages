@@ -11,7 +11,7 @@
 .content{
   font-family: 'Muli', sans-serif;
   padding: 10px;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .section{
@@ -22,7 +22,7 @@
 }
 
 .secondary_size{
-  font-size: 75px;
+  font-size: 3rem;
   font-family: 'Ovo', serif;
 }
 
@@ -51,10 +51,10 @@
 // headline css
 
 .main_size{
-  font-size: 125px;
+  font-size: 6rem;
   padding: 0px;
   margin: 0px;
-  line-height: 100px;
+  line-height: 6rem;
 }
 
 .title{
@@ -94,6 +94,10 @@ a:hover{
   background: #E4C220;
   color:  #007E9E;
   text-align: center;
+}
+
+.white_icons{
+  color: white;
 }
 
 // contact css
@@ -164,3 +168,43 @@ a:hover{
 
 
 // media queries
+
+@media (max-width: 500px){
+  .row{
+    display: grid;
+    grid-template-rows: 1fr 15px 1fr;
+    grid-template-columns: auto;
+    grid-template-areas:
+     "p"
+     "."
+     "t";
+  }
+
+  .flip-container, .front, .back {
+  	width: 250px;
+    height: 300px;
+  }
+
+  .border{
+    padding: 15px 80px;
+  }
+
+  .contact{
+    padding: 15px 80px;
+  }
+
+  .content{
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .main_size{
+    font-size: 4rem;
+    padding: 0px;
+    margin: 0px;
+    line-height: 4rem;
+  }
+
+
+}
