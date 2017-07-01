@@ -11,9 +11,8 @@
 .content{
   font-family: 'Muli', sans-serif;
   padding: 10px;
-  font-size: 15px;
+  font-size: 25px;
 }
-
 
 .section{
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
@@ -38,9 +37,11 @@
 .t_column{
   grid-area: t;
 }
+
 .p_column{
   grid-area: p;
 }
+
 .row{
   display: grid;
   grid-template-columns: 1fr 15px 1fr;
@@ -49,14 +50,16 @@
 
 // headline css
 
-
 .main_size{
   font-size: 125px;
-  line-height: 50px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 100px;
 }
 
 .title{
   font-family: 'Ovo', serif;
+  margin-bottom: 50px;
 }
 
 // projects css
@@ -94,7 +97,6 @@ a:hover{
 }
 
 // contact css
-
 .contact{
   padding: 15px 150px;
 }
@@ -105,6 +107,14 @@ a:hover{
   justify-content: space-between;
 }
 
+.flex_contact a{
+  color: rgba(0,0,0,0.5);
+}
+
+.flex_contact a:hover{
+  color: black;
+}
+
 
 /* flip css */
 
@@ -112,7 +122,6 @@ a:hover{
 .flip-container {
 	perspective: 1000px;
   margin-bottom: 25px;
-
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -120,7 +129,7 @@ a:hover{
 	}
 
 .flip-container, .front, .back {
-	width: 100%;
+	width: 450px;
   height: 400px;
 }
 
@@ -152,3 +161,6 @@ a:hover{
 .back {
 	transform: rotateY(180deg);
 }
+
+
+// media queries
