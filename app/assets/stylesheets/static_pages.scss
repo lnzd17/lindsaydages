@@ -7,7 +7,8 @@
 .border{
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
+  width: 915px;
+  padding: 0px;
 }
 
 .content{
@@ -104,9 +105,9 @@ a:hover{
 
 // contact css
 .contact{
+  margin: 0px;
+  padding: 0px;
   width: 100%;
-
-
 }
 
 .flex_contact{
@@ -194,7 +195,6 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     width: 250px;
-    border: 1px solid black;
   }
 
   .content{
