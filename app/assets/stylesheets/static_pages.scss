@@ -44,27 +44,35 @@ h1{
 
 .t_column{
   grid-area: t;
+  -ms-grid-area: t;
 }
 
 .p_column{
   grid-area: p;
+  -ms-grid-area: p;
 }
 
 .main_headline{
   grid-area: mh;
+  -ms-grid-area: mh;
 }
 
 .sub_headline{
   grid-area: sh;
+  -ms-grid-area: sh;
 }
 
 .row{
   display: grid;
   display: -ms-grid;
   grid-template-columns: 450px 15px 450px;
+  -ms-template-columns: 450px 15px 450px;
   grid-template-areas:
   "mh . sh"
   "p . t";
+  -ms-template-areas:
+    "mh . sh"
+    "p . t";
 }
 
 // headline css
@@ -226,13 +234,21 @@ i{
     display: grid;
     display: -ms-grid;
     grid-template-rows: 150px 110px 1fr 15px 1fr;
+    -ms-grid-template-rows: 150px 110px 1fr 15px 1fr;
     grid-template-columns: auto;
+    -ms-grid-template-columns: auto;
     grid-template-areas:
     "mh"
     "sh"
      "p"
      "."
      "t";
+     -ms-grid-template-areas:
+     "mh"
+     "sh"
+      "p"
+      "."
+      "t";
   }
 
   .flip-container, .front, .back {
