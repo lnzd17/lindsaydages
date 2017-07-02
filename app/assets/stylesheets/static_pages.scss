@@ -66,11 +66,11 @@ h1{
   display: grid;
   display: -ms-grid;
   grid-template-columns: 450px 15px 450px;
-  -ms-template-columns: 450px 15px 450px;
+  -ms-grid-template-columns: 450px 15px 450px;
   grid-template-areas:
   "mh . sh"
   "p . t";
-  -ms-template-areas:
+  -ms-grid-template-areas:
     "mh . sh"
     "p . t";
 }
