@@ -50,10 +50,20 @@ h1{
   grid-area: p;
 }
 
+.main_headline{
+  grid-area: mh;
+}
+
+.sub_headline{
+  grid-area: sh;
+}
+
 .row{
   display: grid;
   grid-template-columns: 450px 15px 450px;
-  grid-template-areas: "p . t";
+  grid-template-areas:
+  "mh . sh"
+  "p . t";
 }
 
 // headline css
@@ -67,7 +77,14 @@ h1{
 
 .title{
   font-family: 'Ovo', serif;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+}
+
+.sub_title{
+  height: 6rem;
+  line-height: 8rem;
+  font-size: 3rem;
+  text-align: right;
 }
 
 // projects css
@@ -200,9 +217,11 @@ i{
 @media (max-width: 600px){
   .row{
     display: grid;
-    grid-template-rows: 1fr 15px 1fr;
+    grid-template-rows: 150px 110px 1fr 15px 1fr;
     grid-template-columns: auto;
     grid-template-areas:
+    "mh"
+    "sh"
      "p"
      "."
      "t";
@@ -230,6 +249,19 @@ i{
     padding: 0px;
     margin: 0px;
     line-height: 4rem;
+  }
+
+  .title{
+    font-family: 'Ovo', serif;
+    margin-bottom: 0px;
+  }
+
+  .sub_title{
+    height: auto;
+    line-height: auto;
+    font-size: 1.8rem;
+    text-align: left;
+    padding-top: 5px;
   }
 
   .two_columns{
