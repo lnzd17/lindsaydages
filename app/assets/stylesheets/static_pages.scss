@@ -60,6 +60,7 @@ h1{
 
 .row{
   display: grid;
+  display: -ms-grid;
   grid-template-columns: 450px 15px 450px;
   grid-template-areas:
   "mh . sh"
@@ -223,6 +224,7 @@ i{
 @media (max-width: 600px){
   .row{
     display: grid;
+    display: -ms-grid;
     grid-template-rows: 150px 110px 1fr 15px 1fr;
     grid-template-columns: auto;
     grid-template-areas:
