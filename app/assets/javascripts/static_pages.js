@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  if(navigator.userAgent.match(/msie|trident/i)) {
-    alert('Optimal viewing experience done using Chrom/Firefox');
+  if(navigator.userAgent.match(/msie|trident|Edge/i)) {
+    alert('Optimal viewing experience achieved when using Chrome/Firefox/Safari');
   };
 });
