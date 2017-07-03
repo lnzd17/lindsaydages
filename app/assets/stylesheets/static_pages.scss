@@ -3,6 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "font-awesome-sprockets";
 @import "font-awesome";
+body{
+  background: #FBFCFF;
+}
 
 h1{
   padding: 0px;
@@ -13,7 +16,8 @@ h1{
   margin-left: auto;
   margin-right: auto;
   width: 915px;
-  padding: 0px;
+  padding: 25px 0px;
+  background: #FBFCFF;
 }
 
 .content{
@@ -42,6 +46,10 @@ h1{
   text-align: right;
 }
 
+.center_align{
+  text-align: center;
+}
+
 .t_column{
   grid-area: t;
   -ms-grid-area: t;
@@ -66,6 +74,7 @@ h1{
   display: grid;
   -ms-display: grid;
   grid-template-columns: 450px 15px 450px;
+  grid-template-rows: 325px auto;
   -ms-grid-template-columns: 450px 15px 450px;
   grid-template-areas:
   "mh . sh"
@@ -87,6 +96,7 @@ h1{
 .title{
   font-family: 'Ovo', serif;
   margin-bottom: 15px;
+  color: #2B303A;
 }
 
 .sub_title{
@@ -94,6 +104,12 @@ h1{
   line-height: 8rem;
   font-size: 3rem;
   text-align: right;
+}
+
+img{
+  height: 275px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 // projects css
@@ -122,7 +138,7 @@ a{
 }
 
 a:hover{
-  color: white;
+  color: #FBFCFF;
 }
 
 // Tools CSS
@@ -169,7 +185,7 @@ i{
 }
 
 .flex_contact a:hover{
-  color: black;
+  color: #2B303A;
 }
 
 
@@ -293,6 +309,12 @@ i{
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
+  }
+
+  img{
+    height: 200px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
   }
 
 
