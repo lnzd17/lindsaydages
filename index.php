@@ -4,9 +4,9 @@
     <title>Lindsaydages</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/cf39e837b4.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Muli|Ovo" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-mfizz/font-mfizz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
   </head>
 <div class="border">
   <div class="row">
