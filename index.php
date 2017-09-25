@@ -69,18 +69,18 @@
     <div class="about">
         <div class="section">
           <article>
-            I am a web developer<span>&#128187;</span>with experience
+            I am a <span>&#128187;</span>web developer with experience
             primarily in Ruby on Rails and JavaScript.
-            In addition to my years of billing and customer
-            experience<span>&#129309;</span>, I have also held a leadership
+            In addition to my years of billing and <span>&#129309;</span>customer
+            experience, I have also held a leadership
             position where I managed a team of 6 people and led daily huddles.
-            I love learning new technologies<span>&#128640;</span>,
-            automating processes, smashing bugs
-            (of course only of the programmatic kind<span>&#128027;</span>),
-            and tackling new challenges<span>&#128296;</span>. Recently,
+            I love learning <span>&#128640;</span>new technologies,
+            automating processes, smashing <span>&#128027;</span>bugs
+            (of course only of the programmatic kind),
+            and tackling new <span>&#128296;</span>challenges. Recently,
             I have contributed to an open source Rails application supporting a local
-            dog rescue<span>&#128054;</span> and co-developed
-            a recipe search engine<span>&#129367;</span>.
+            <span>&#128054;</span>dog rescue and co-developed
+            a <span>&#129367;</span>recipe search engine.
             I am now looking to join a team that
             values idea sharing, honest feedback, and constant improvement.
         </article>
