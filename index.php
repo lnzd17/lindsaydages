@@ -2,13 +2,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lindsaydages</title>
+    <title>Lindsay Dages</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="https://use.fontawesome.com/cf39e837b4.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Muli|Ovo" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
+    <meta name=“keywords” content=“lindsay,dages,dutton,Lindsay” />
+    <meta name="description" content="Lindsay Dages: Web Developer Portfolio" />
   </head>
 <div class="border">
   <div class="row">
@@ -78,8 +80,8 @@
             automating processes, smashing <span>&#128027;</span>bugs
             (of course only of the programmatic kind),
             and tackling new <span>&#128296;</span>challenges. Recently,
-            I have contributed to an open source Rails application supporting a local
-            <span>&#128054;</span>dog rescue and co-developed
+            I have contributed to an open source Rails application supporting a
+            local <span>&#128054;</span>dog rescue and co-developed
             a <span>&#129367;</span>recipe search engine.
             I am now looking to join a team that
             values idea sharing, honest feedback, and constant improvement.
