@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="https://use.fontawesome.com/cf39e837b4.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Muli|Ovo" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
   </head>
@@ -43,28 +45,16 @@
               <div class="content">
                 <ul>
                   <li>
+                    <a href="https://github.com/space-jammers/vegme" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://vegme.herokuapp.com/" target="_blank">VegMe</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ophrescue/RescueRails" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://ophrescue.org/" target="_blank">RescueRails</a>
+                  </li>
+                  <li>
                     <a href="https://github.com/counterThreat/chess_app" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
                     <a href="https://firehose-chess-app.herokuapp.com/" target="_blank">Counter Threat</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lnzd17/grammable" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://grammable-lindsay-dages.herokuapp.com/" target="_blank">Grammable</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lnzd17/flixter" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://flixter-lindsay-dages.herokuapp.com/" target="_blank">Flixter</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lnzd17/todo" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://todoster-lindsay-dages.herokuapp.com/" target="_blank">Todoster</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lnzd17/splurty" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://splurty-lindsay-dages.herokuapp.com/" target="_blank">Splurty</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/lnzd17/nomster" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://nomster-lindsay-dages.herokuapp.com/" target="_blank">Nomster</a>
                   </li>
                 </ul>
               </div>
@@ -95,16 +85,17 @@
           <div class="back">
               <div class="section tools">
                 <div class="content">
-                  <i class="icon-ruby-on-rails fa-4x"></i>
-                  <i class="icon-javascript fa-4x"></i>
-                  <i class="icon-heroku fa-4x"></i>
                   <ul class="two_columns">
-                    <li>Codeship</li>
-                    <li>AJAX</li>
-                    <li>RSpec</li>
+                    <li>Ruby On Rails</li>
+                    <li>HTTP Requests</li>
+                    <li>Git</li>
                     <li>JSON</li>
+                    <li>JQuery</li>
+                    <li>PostgreSQL</li>
+                    <li>RSpec</li>
+                    <li>Heroku</li>
+                    <li>CodeShip</li>
                     <li>HTML/CSS</li>
-                    <li>React</li>
                   </ul>
                 </div>
               </div>
