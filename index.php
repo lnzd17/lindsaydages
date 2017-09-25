@@ -44,14 +44,17 @@
             <div class="section projects">
               <div class="content">
                 <ul>
+                  <span class='project-description'>a recipe search engine:</span>
                   <li>
                     <a href="https://github.com/space-jammers/vegme" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
                     <a href="https://vegme.herokuapp.com/" target="_blank">VegMe</a>
                   </li>
+                  <span class='project-description'>an open source dog  rescue app: </span>
                   <li>
                     <a href="https://github.com/ophrescue/RescueRails" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
                     <a href="https://ophrescue.org/" target="_blank">RescueRails</a>
                   </li>
+                  <span class='project-description'>a two player chess app:</span>
                   <li>
                     <a href="https://github.com/counterThreat/chess_app" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
                     <a href="https://firehose-chess-app.herokuapp.com/" target="_blank">Counter Threat</a>

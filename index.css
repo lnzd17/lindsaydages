@@ -138,12 +138,22 @@ i{
   color: #E4C220;
 }
 
+.projects ul {
+  text-align: left;
+}
+
+.project-description{
+  font-size: 0.9rem;
+  color: #FBFCFF;
+}
+
 .projects li {
   padding: 5px 0;
+  margin-bottom: 5px;
 }
 
 .projects a {
-  margin: 0 10px;
+  margin: 0 10px 0 0px;
   text-align: center;
 }
 
@@ -319,11 +329,12 @@ i{
 
   .projects li {
     padding: 5px 0;
+    margin-bottom: 5px;
   }
 
   .projects a {
-    margin: 0 5px;
-    text-align: right;
+    margin: 0 10px 0 0px;
+    text-align: center;
   }
 
   .two_columns{
