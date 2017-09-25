@@ -4,6 +4,7 @@
   <head>
     <title>Lindsay Dages</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/coder.png"/>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="https://use.fontawesome.com/cf39e837b4.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
