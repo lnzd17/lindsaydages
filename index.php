@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -72,20 +71,18 @@
     <div class="about">
         <div class="section">
           <article>
-            I am a <span>&#128187;</span>web developer with experience
-            primarily in Ruby on Rails and JavaScript.
-            In addition to my years of billing and <span>&#129309;</span>customer
+            I am a web developer with experience
+            primarily in <b>Ruby on Rails</b> and <b>JavaScript</b>.
+            In addition to my years of billing and customer
             experience, I have also held a leadership
-            position where I managed a team of 6 people and led daily huddles.
-            I love learning <span>&#128640;</span>new technologies,
-            automating processes, smashing <span>&#128027;</span>bugs
-            (of course only of the programmatic kind),
-            and tackling new <span>&#128296;</span>challenges. Recently,
-            I have contributed to an open source Rails application supporting a
-            local <span>&#128054;</span>dog rescue and co-developed
-            a <span>&#129367;</span>recipe search engine.
+            position where I managed a team of six people and led daily huddles.
+            I love learning new technologies,
+            automating processes and bugs <em>(only of the programmatic type, of course)</em>. Recently,
+            I contributed to an open source Rails application supporting a
+            local dog rescue and co-developed
+            a recipe search engine.
             I am now looking to join a team that
-            values idea sharing, honest feedback, and constant improvement.
+            values collaboration, honest feedback, and constant improvement.
         </article>
         </div>
     </div>

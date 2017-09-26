@@ -108,12 +108,12 @@ i{
   border-radius: 5px;
   background-color: #e9e9ea;
   margin: 0 0 15px 0 ;
-  height: 275px;
-  line-height: 2rem;
+  height: 300px;
+  line-height: 2.3rem;
   text-align: left;
   font-family: 'Muli', sans-serif;
   font-size: 1.5rem;
-  padding: 5px;
+  padding: 5px 10px;
   color: #505051;
 }
 
@@ -125,7 +125,7 @@ i{
 .row{
   display: grid;
   grid-template-columns: 450px 15px 450px;
-  grid-template-rows: 315px 315px auto;
+  grid-template-rows: 315px 325px auto;
   grid-template-areas:
   "mh . sh"
   "about about about"
