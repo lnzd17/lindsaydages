@@ -256,7 +256,7 @@ i{
     border-radius: 5px;
   }
   .row{
-    grid-template-rows: 150px 125px 725px 1fr 15px 1fr;
+    grid-template-rows: 150px 125px 700px 1fr 15px 1fr;
     grid-template-columns: auto;
     grid-template-areas:
     "mh"
@@ -275,7 +275,7 @@ i{
   .border{
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 275px;
   }
 
   .content{
@@ -313,7 +313,7 @@ i{
     border-radius: 5px;
     background-color: #e9e9ea;
     margin: 0 0 15px 0 ;
-    height: 700px;
+    height: 650px;
     line-height: 2rem;
     text-align: left;
     font-family: 'Muli', sans-serif;
@@ -343,6 +343,24 @@ i{
 
   .two_columns li {
     padding: 2px 0;
+  }
+
+  .contact{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .flex_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex_contact a{
+    color: rgba(0,0,0,0.5);
+    margin: 0px;
+    padding: 0px;
   }
 
 
