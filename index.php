@@ -77,7 +77,7 @@
             experience, I have also held a leadership
             position where I managed a team of six people and led daily huddles.
             I love learning new technologies,
-            automating processes and bugs <em>(only of the programmatic type, of course)</em>. Recently,
+            automating processes and smashing bugs <em>(only of the programmatic type, of course)</em>. Recently,
             I contributed to an open source Rails application supporting a
             local dog rescue and co-developed
             a recipe search engine.
