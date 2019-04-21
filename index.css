@@ -209,6 +209,20 @@ main section h3 {
     bottom: 500px;
   }
 
+  [class^="tooltip"]:first-child:after{
+    width: 80px;
+    bottom: 60px;
+    left: 20px;
+    font-size: 10px;
+  }
+
+  [class^="tooltip"]:after{
+    width: 80px;
+    bottom: 60px;
+    left: 0;
+    font-size: 10px;
+  }
+
   .tools-container{
     width: 90%;
     margin: 0 auto;
