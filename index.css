@@ -257,11 +257,18 @@ main section h3 {
     bottom: 600px;
   }
 
+  [class^="tooltip"]:first-child:after{
+    width: 80px;
+    bottom: 60px;
+    left: 30px;
+    font-size: 10px;
+  }
+
   [class^="tooltip"]:after {
     width: 80px;
     bottom: 60px;
     left: 0;
-    font-size: 8px;
+    font-size: 10ipx;
   }
 
   main section h3 {
