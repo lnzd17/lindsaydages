@@ -1,11 +1,10 @@
-body{
+body {
   margin: 0;
   overflow-x: hidden;
   color: #707070;
   font-size: 30px;
   font-family: 'Nanum Gothic', sans-serif;
 }
-
 
 body::-webkit-scrollbar {
   width: 5px;
@@ -17,6 +16,39 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+
+[class^="tooltip"] {
+  position: relative;
+  cursor: pointer;
+}
+[class^="tooltip"]:after {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  content: attr(data-tooltip);
+  padding:10px;
+  bottom: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-2px);
+  transform: translateX(-50%) translateY(-2px);
+  background: grey;
+  color: white;
+  width: 200px;
+  z-index: 2;
+  font-size: 12px;
+  border-radius: 2px;
+  transition: opacity 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), -webkit-transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: opacity 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: opacity 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), -webkit-transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+[class^="tooltip"]:hover:after {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(0);
+}
+
 .hero {
   width: 100vw;
   height: 1024px;
@@ -24,27 +56,23 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: start;
   text-align: center;
-  background: url('assets/space.png') no-repeat;
+  background: url('assets/space.svg') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.hero-text{
-  width: 900px;
-  height: 400px;
+.hero-text {
+  width: 785.67px;
+  height: 346.23px;
   position: relative;
-  bottom: 93px;
-  left: 25px;
-  background: url('assets/space_text.png') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  bottom: 65px;
+  left: 5px;
+  background: url('assets/space_text.svg') no-repeat;
 }
 
-.arrow-container{
+.arrow-container {
   position: relative;
   color: white;
   text-align: center;
@@ -54,21 +82,21 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.arrow-container svg{
+.arrow-container svg {
   width: 100px;
   height: auto;
 }
 
-.hero-inner{
+.hero-inner {
   margin: 18% 0 0 0;
 }
 
-main{
+main {
   margin: -70px auto 0 auto;
   width: 640px;
 }
 
-.summary{
+.summary {
   padding: 0;
 }
 
@@ -77,7 +105,7 @@ main{
   text-align: center;
 }
 
-main section h2{
+main section h2 {
   font-size: 30px;
   line-height: 1.2em;
   font-weight: bold;
@@ -85,66 +113,49 @@ main section h2{
   text-align: center;
 }
 
-hr{
+hr {
   border: 0;
   height: 3px;
   background: #707070;
   margin: 95px 0;
 }
 
-main section h3{
+main section h3 {
   font-size: 30px;
   font-weight: normal;
   margin: 0 0 17px 0;
   text-align: left;
 }
 
-.experience div{
+.experience div {
   margin: 0 0 95px 0;
 }
 
-.experience p{
+.experience p {
   font-size: 24px;
   line-height: 1.3em;
   text-align: left;
 }
 
-.tools-container > div{
+.tools-container>div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
 
-.tools-container > div:first-child {
+.tools-container>.row:first-child {
   width: 100%;
   margin: 0 auto 96px auto;
 }
 
-.tools-container > div:first-child > div {
-  width: 100%;
-  display: flex;
-  justify-content: start;
-}
 
-.tools-container > div:first-child > div > img:nth-child(1) {
-  margin: 0 0 0 20px;
-}
-
-.tools-container > div:first-child > div > img:nth-child(2) {
-  margin: 0 auto 0 30px;
-}
-
-.tools-container > div:first-child > div > img:nth-child(3) {
-  margin: 0 40px 0 0px;
-}
-
-.tools-container > div:last-child{
+.tools-container>.row:last-child {
   width: 80%;
   margin: 0 auto;
 }
 
-.tools-container img{
+.tools-container img {
   height: 87px;
   max-width: auto;
 }
@@ -163,102 +174,96 @@ main section h3{
   max-width: auto;
 }
 
-#copyright{
+#copyright {
   font-size: 18px;
   text-align: center;
   margin: 0 0 50px 0;
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
-  .hero-text{
+  .hero-text {
     width: 700px;
     height: 308px;
     bottom: 20px;
     left: 0;
   }
 
-  .arrow-container{
+  .arrow-container {
     bottom: 350px;
   }
 }
 
 @media (max-width: 768px) and (min-width: 426px) {
-  main{
+  main {
     width: 90%;
   }
-  .hero-text{
-    width: 500px;
-    height: 220px;
-    bottom: -120px;
+
+  .hero-text {
+    width: 420px;
+    height: 184.8px;
+    bottom: -100px;
     left: 0;
   }
 
-  .arrow-container{
+  .arrow-container {
     bottom: 500px;
   }
 
-  .tools-container > div:first-child > div > img:nth-child(3) {
-    margin: 0 10px 0 10px;
+  .tools-container{
+    width: 90%;
+    margin: 0 auto;
   }
+
+  .tools-container img {
+    height: 30px;
+  }
+
 }
 
 @media (max-width: 425px) {
-
-  body{
+  body {
     font-size: 15px;
   }
 
-  main{
+  main {
     margin: -70px 0 0 0;
     width: auto;
     padding: 0 30px;
   }
 
-  .hero-text{
+  .hero-text {
     width: 280px;
     height: 123.2px;
     bottom: -175px;
     left: 0
   }
 
-  .arrow-container{
+  .arrow-container {
     bottom: 600px;
   }
 
-  main section h3{
+  main section h3 {
     font-size: 20px;
   }
 
-  .experience div{
+  .experience div {
     margin: 0 0 95px 0;
   }
 
-  .experience p{
+  .experience p {
     font-size: 15px;
   }
 
-  .tools-container > div:first-child {
+  .tools-container>div:first-child {
     margin: 0 auto 50px auto;
   }
 
-  .tools-container > div:first-child > div {
+  .tools-container>div:first-child>div {
     justify-content: space-around;
   }
 
-  .tools-container > div:first-child > div > img:nth-child(1) {
-    margin: 0;
-  }
 
-  .tools-container > div:first-child > div > img:nth-child(2) {
-    margin: 0;
-  }
-
-  .tools-container > div:first-child > div > img:nth-child(3) {
-    margin: 0;
-  }
-
-
-  .tools-container img{
+  .tools-container img {
     height: 30px;
   }
 
@@ -266,10 +271,7 @@ main section h3{
     height: 40px;
   }
 
-
-  #copyright{
+  #copyright {
     font-size: 12px;
   }
-
-
 }
