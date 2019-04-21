@@ -242,6 +242,13 @@ main section h3 {
     bottom: 600px;
   }
 
+  [class^="tooltip"]:after {
+    width: 80px;
+    bottom: 60px;
+    left: 0;
+    font-size: 8px;
+  }
+
   main section h3 {
     font-size: 20px;
   }
